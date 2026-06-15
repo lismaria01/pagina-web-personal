@@ -119,26 +119,13 @@
     <section id="contact">
         <h2>{{ ui_text.contact_title }}</h2>
 
-        <div class="contact-layout-container">
-            <div class="contact-form-wrapper">
-                {# Flash messages are now handled by the modal in base.html #}
-                <form method="POST" action="{{ url_for('index', lang=lang) }}">
-                    {{ form.hidden_tag() }}
-                    <p>{{ form.name.label }}<br>{{ form.name(size=30) }}</p>
-                    <p>{{ form.email.label }}<br>{{ form.email(size=30) }}</p>
-                    <p>{{ form.message.label }}<br>{{ form.message(rows=5, cols=30) }}</p>
-                    <p>{{ form.submit() }}</p>
-                </form>
-            </div>
-
-            <div class="social-contact-container">
-                {% for link in social_links %}
-                <a href="{{ link.url }}" class="social-contact-link" target="_blank" rel="noopener noreferrer">
-                    <div class="social-icon">{{ link.icon_svg | safe }}</div>
-                    <span>{{ link.username }}</span>
-                </a>
-                {% endfor %}
-            </div>
+        <div class="social-contact-container">
+            {% for link in social_links %}
+            <a href="{{ link.url }}" class="social-contact-link" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon">{{ link.icon_svg | safe }}</div>
+                <span>{{ link.username }}</span>
+            </a>
+            {% endfor %}
         </div>
     </section>
 {% endblock %}
