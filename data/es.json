@@ -7,6 +7,12 @@
             "Fuera del mundo de las ciencias de la computación, disfruto jugar al fútbol con amigos y ver partidos de fútbol, especialmente los de mi equipo favorito, Olimpia, de Paraguay.",
             "<b>Estoy buscando activamente posiciones post-doctorales o en la industria para incorporarme después de completar mi doctorado. ¡No dudes en contactarme si te gustaría que charlemos!</b>"
         ],
+        "cv_title": "Curriculum Vitae",
+        "cv_intro": [
+            "Soy candidato a doctor en Ciencias de la Computación con enfoque en desarrollo de algoritmos para problemas de optimización y aprendizaje automático. Poseo habilidades para traducir conceptos matemáticos abstractos en algoritmos eficientes para problemas computacionales complejos tales como scheduling, feature engineering, classification y clustering. Además de investigación teórica, me gusta aplicar mis conocimientos en tecnologías emergentes como aprendizaje automático (machine learning) e inteligencia artificial (AI), específicamente en la optimización de las estructuras de datos subyacentes que hacen funcionar los sistemas distribuidos a gran escala.",
+            "Poseo más de 5 años de experiencia enseñando matemáticas y algoritmos a nivel de grado. Además, tengo experiencia como Analista en Minería de Datos donde implementé de manera satisfactoria el algoritmo de selección de atributos mRMR utilizando PySpark para optimizar un modelo de predicción de Churn, demostrando así mi habilidad para aplicar investigación en algoritmos avanzados para resolver problemas prácticos en el área de aprendizaje automático.",
+            "Fuera del mundo de la computación, disfruto de jugar y mirar fútbol con mis amigos, especialmente aquellos partidos de mi equipo favorito, Olimpia de Paraguay."
+        ],
         "cv_button": "Descargar CV",
         "cv_filename": "cv.pdf",
         "profile_image": "profile.jpg",
