@@ -192,6 +192,14 @@ section:last-child {
     border-color: var(--primary-color);
 }
 
+.language-toggle.active {
+    color: #2ecc71; /* Un tono de verde brillante */
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+    border-color: #2ecc71;
+}
+
 .mobile-nav-toggle {
     display: none;
 }

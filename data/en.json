@@ -1,11 +1,11 @@
 {
     "about": {
+        "name": "Lisandra Matos",
         "title": "About Me",
         "intro": [
-            "I am a Ph.D. candidate in Computing Science based in Glasgow, UK. My research focuses on designing algorithms for the b-chromatic colouring problem across various graph classes. This work provides a rigorous mathematical framework for addressing real-world resource allocation and conflict resolution challenges. I am adept at translating abstract graph models into efficient algorithms for complex optimisation problems, such as Automated Scheduling and Timetabling. Beyond theoretical research, I am keen to apply my algorithmic expertise to emerging technologies in Machine Learning and AI, specifically in optimising the underlying data structures and computational graphs that power large-scale distributed systems.",
-            "I have more than 5 years of teaching experience in math and algorithms at undergraduate level. Furthermore, I have experience as Data Mining Analyst where I successfully implemented the mRMR feature selection algorithm using PySpark to optimize churn prediction models, demonstrating my ability to apply advanced algorithmic research to solve practical big data challenges.",
-            "Outside the world of computing science, I enjoy playing football with friends and watching football matches, especially those of my favorite team, Olimpia, Paraguay.",
-            "<b>I am actively seeking post-doctoral or industry positions to join after completing my Ph.D. Please get in touch if you would like to have a chat!</b>"
+            "I grew up in a fishing community in Maranhão, Brazil, which established my deep connection to the ocean and its importance for livelihoods. As the first person in my family to access higher education, I graduated with a BSc in Oceanography and completed an MSc in Marine Environmental Protection in the UK. This journey cemented my focus on science-based solutions that balance ecological protection with the economic necessities of the global energy transition.",
+            "In my role as a Graduate Fisheries Liaison Officer in Scotland, I specialised in mitigating the impacts of offshore energy development. I led mediation between wind farm developers and key UK fishing organisations, such as the SFF and NFFO. My work was critical: conducting Environmental Impact Assessments (EIA) and ensuring local fishing communities' socio-economic concerns were integrated into policy and mitigation strategies, promoting a responsible transition to renewables.",
+            "I am currently a Research Assistant II: Renewable Energy at the Stockholm Environment Institute (SEI) in Bogotá, Colombia. My primary focus is applied research and policy analysis to support the inclusive and responsible deployment of renewable energy across Latin America. At SEI, I aim to connect the technical, social, and environmental dimensions of the energy transition, providing practical solutions for a sustainable energy future in the region."
         ],
         "cv_title": "Curriculum Vitae",
         "cv_intro": [
@@ -58,7 +58,14 @@
         "blog_title": "Blog",
         "publication_link_text": "Link to Publication",
         "all_posts_title": "All Posts",
-        "no_posts_found": "No posts found."
+        "no_posts_found": "No posts found.",
+        "nav_about": "About",
+        "nav_education": "Education",
+        "nav_experience": "Experience",
+        "nav_projects": "Projects",
+        "nav_publications": "Publications",
+        "nav_news": "News",
+        "nav_contact": "Contact"
     },
     "projects": [
         {
@@ -91,25 +98,18 @@
     ],
     "education": [
         {
-            "id": "edu-uofg",
-            "degree": "Ph.D. candidate in Computing Science",
-            "institution": "University of Glasgow",
-            "location": "Glasgow, United Kingdom",
-            "description": "Currently a Ph.D. candidate focusing on the complexity of the b-chromatic colouring problem and related problems. Since the b-chromatic colouring problem is NP-hard in general, my work involves looking for polynomial-time solutions in restricted graph classes, such as graphs with a maximum degree of 3 and graphs with forbidden induced subgraphs. I also work on other variants of the b-chromatic colouring problem, such as the fall colouring problem and the total b-chromatic colouring problem."
+            "id": "edu-bangor-msc",
+            "degree": "M.Sc. in Marine Environmental Protection",
+            "institution": "Bangor University, School of Ocean Science",
+            "location": "Wales, United Kingdom",
+            "description": "The course offered a comprehensive view of the marine environment, including field trips and studies on the social aspects of the ocean for people and industry. The dissertation research was titled: \"Assessing the vulnerability of the UK fishing fleet to climate change\". This research specifically focused on addressing the critical issues facing the fisheries sector and to develop specialised knowledge concerning main commercial fishing species, principal UK ports, and the characteristics of fishing vessels."
         },
         {
-            "id": "edu-una-msc",
-            "degree": "M.Sc. in Computer Science",
-            "institution": "National University of Asunción, Nucleo de Investigación y Desarrollo Tecnológico de la Facultad Politecnica",
-            "location": "San Lorenzo, Paraguay",
-            "description": "Course focused on general aspects of computer science and research. My master's thesis was focused on unsupervised machine learning, spectral graph theory, and communication complexity."
-        },
-        {
-            "id": "edu-una-bsc",
-            "degree": "B.Sc. in Computer Science",
-            "institution": "National University of Asunción, Polytechnic School",
-            "location": "San Lorenzo, Paraguay",
-            "description": "A program focused on computer science fundamentals, mathematics, and programming. I graduated with a strong foundation in software engineering."
+            "id": "edu-ufma-bsc",
+            "degree": "B.Sc. in Oceanography",
+            "institution": "Federal University of Maranhao",
+            "location": "Sao Luis, Maranhao, Brazil",
+            "description": "The curriculum provided a broad, interdisciplinary foundation. Key modules covered essential areas such as: Fundamental Sciences: Chemical, Physical, Biological, and Geological Oceanography. Analytical Techniques: Data Analysis and Processing, Remote Detection, and Meteorology and Climatology. Environmental Policy: Environmental Law and Marine Pollution. The dissertation focused on marine toxicology. The research was titled: \"Evaluation of the toxicity of mixtures of biocides and metals to embryos of Crassostrea rhirophorae and bacteria Vibrio fischeri\". This project developed skills in laboratory research and the assessment of chemical impacts on marine organisms."
         }
     ],
     "experience": [

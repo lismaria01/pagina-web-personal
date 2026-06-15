@@ -18,25 +18,18 @@
     ],
     "education": [
         {
-            "id": "edu-uofg",
-            "institution_logo": "img/uofg_logo.png",
-            "start_year": 2022,
-            "end_year": 2026,
-            "institution_url": "https://www.gla.ac.uk/"
+            "id": "edu-bangor-msc",
+            "institution_logo": "img/bangor-university-logo.png",
+            "institution_url": "https://www.bangor.ac.uk/ocean-sciences",
+            "start_year": 2021,
+            "end_year": 2022
         },
         {
-            "id": "edu-una-msc",
-            "institution_logo": "img/previous_uni_logo.png",
-            "start_year": 2018,
-            "end_year": 2020,
-            "institution_url": "https://nidtec.pol.una.py"
-        },
-        {
-            "id": "edu-una-bsc",
-            "institution_logo": "img/previous_highschool_logo.png",
+            "id": "edu-ufma-bsc",
+            "institution_logo": "img/ufma-logo.png",
+            "institution_url": "https://portal.ufma.br/",
             "start_year": 2013,
-            "end_year": 2017,
-            "institution_url": "https://www.pol.una.py"
+            "end_year": 2018
         }
     ],
     "experience": [

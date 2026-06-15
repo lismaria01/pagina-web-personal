@@ -1,7 +1,7 @@
 Flask
 Flask-FlatPages
 Flask-WTF
-Werkzeug==2.2.3
+Werkzeug
 Markdown
 Pygments
 PyYAML

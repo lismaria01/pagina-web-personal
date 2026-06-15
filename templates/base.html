@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {# The title block can be overridden by child templates #}
-    <title>{% block title %}Fabricio Mendoza{% endblock %}</title>
+    <title>{% block title %}{{ about.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="stylesheet" href="{{ url_for('pygments_css') }}">
 
@@ -22,7 +22,7 @@
 <body>
 
     <header class="primary-header">
-        <a href="{{ url_for('index', lang=lang) }}" class="nav-logo">Fabricio Mendoza</a>
+        <a href="{{ url_for('index', lang=lang) }}" class="nav-logo">{{ about.name }}</a>
 
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
             <span class="sr-only">Menu</span>
@@ -30,19 +30,17 @@
 
         <nav>
             <ul id="primary-navigation" class="primary-navigation" data-visible="false">
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#about">{% if lang == 'en' %}About{% else %}Sobre Mí{% endif %}</a></li>
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#education">{% if lang == 'en' %}Education{% else %}Educación{% endif %}</a></li>
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#experience">{% if lang == 'en' %}Experience{% else %}Experiencia{% endif %}</a></li>
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#projects">{% if lang == 'en' %}Projects{% else %}Proyectos{% endif %}</a></li>
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#publications">{% if lang == 'en' %}Publications{% else %}Publicaciones{% endif %}</a></li>
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#news">{% if lang == 'en' %}News{% else %}Noticias{% endif %}</a></li>
-                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#contact">{% if lang == 'en' %}Contact{% else %}Contacto{% endif %}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#about">{{ ui_text.nav_about }}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#education">{{ ui_text.nav_education }}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#experience">{{ ui_text.nav_experience }}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#projects">{{ ui_text.nav_projects }}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#publications">{{ ui_text.nav_publications }}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#news">{{ ui_text.nav_news }}</a></li>
+                <li><a class="nav-link" href="{{ url_for('index', lang=lang) }}#contact">{{ ui_text.nav_contact }}</a></li>
                 <li class="language-switcher">
-                {% if lang == 'en' %}
-                    <a class="language-toggle" href="{{ url_for('set_language', lang='es') }}">ES</a>
-                {% else %}
-                    <a class="language-toggle" href="{{ url_for('set_language', lang='en') }}">EN</a>
-                {% endif %}
+                    {% for l in ['en', 'es', 'pt'] %}
+                        <a class="language-toggle {% if l == lang %}active{% endif %}" href="{{ url_for('set_language', lang=l) }}">{{ l|upper }}</a>
+                    {% endfor %}
                 </li>
             </ul>
         </nav>
@@ -69,7 +67,7 @@
 
 
     <footer>
-        <p>&copy; {{ now.year }} Fabricio Mendoza. All rights reserved.</p>
+        <p>&copy; {{ now.year }} {{ about.name }}. All rights reserved.</p>
     </footer>
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>

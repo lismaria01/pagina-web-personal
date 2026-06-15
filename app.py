@@ -45,7 +45,7 @@ def set_language(lang):
 
 @app.route('/<lang>/')
 def index(lang):
-    if lang not in ['en', 'es']:
+    if lang not in ['en', 'es', 'pt']:
         return "Language not supported", 404
 
     _set_locale(app, lang) # Pass app instance
@@ -80,7 +80,7 @@ def index(lang):
 @app.route('/<lang>/cv/pdf')
 def generate_cv_pdf(lang):
     """Generates a PDF version of the CV."""
-    if lang not in ['en', 'es']:
+    if lang not in ['en', 'es', 'pt']:
         return "Language not supported", 404
 
     _set_locale(app, lang) # Pass app instance

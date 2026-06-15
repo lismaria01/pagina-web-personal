@@ -1,0 +1,110 @@
+{
+    "about": {
+        "name": "Lisandra Matos",
+        "title": "Sobre Mim",
+        "intro": [
+            "Cresci numa comunidade de pescadores no Maranhão, Brasil, o que estabeleceu a minha profunda ligação com o oceano e a sua importância para os meios de subsistência. Como a primeira pessoa da minha família a ter acesso ao ensino superior, formei-me com um Bacharelato em Oceanografia e concluí um Mestrado em Proteção do Ambiente Marinho no Reino Unido. Esta jornada consolidou o meu foco em soluções baseadas na ciência que equilibram a proteção ecológica com as necessidades económicas da transição energética global.",
+            "No meu papel como Oficial de Ligação de Pescas para Graduados na Escócia, especializei-me em mitigar os impactos do desenvolvimento de energia offshore. Liderei a mediação entre os promotores de parques eólicos e as principais organizações de pesca do Reino Unido, como a SFF e a NFFO. O meu trabalho foi fundamental: realizar Avaliações de Impacto Ambiental (AIA) e garantir que as preocupações socioeconómicas das comunidades pesqueiras locais fossem integradas nas políticas e estratégias de mitigação, promovendo uma transição responsável para as energias renováveis.",
+            "Atualmente, sou Assistente de Investigação II: Energia Renovável no Stockholm Environment Institute (SEI) em Bogotá, Colômbia. O meu foco principal é a investigação aplicada e a análise de políticas para apoiar a implementação inclusiva e responsável de energias renováveis em toda a América Latina. No SEI, o meu objetivo é conectar as dimensões técnica, social e ambiental da transição energética, fornecendo soluções práticas para um futuro energético sustentável na região."
+        ],
+        "cv_button": "Baixar CV",
+        "cv_filename": "cv.pdf",
+        "profile_image": "profile.jpg",
+        "profile_image_alt": "Uma foto de perfil de Lisandra Matos"
+    },
+    "ui_text": {
+        "education_title": "Educação",
+        "experience_title": "Experiência Profissional",
+        "projects_title": "Projetos",
+        "publications_title": "Publicações",
+        "news_title": "Últimas Notícias",
+        "contact_title": "Contato",
+        "no_experience_message": "Ainda não há experiência de trabalho para mostrar.",
+        "no_publications_message": "Ainda não há publicações para mostrar.",
+        "no_news_message": "Ainda não há notícias. Volte em breve!",
+        "technologies_label": "Tecnologias",
+        "live_demo_button": "Demo ao Vivo",
+        "github_repo_button": "Repositório no GitHub",
+        "published_on_prefix": "Publicado em",
+        "date_format": "%d de %B de %Y",
+        "view_all_posts_button": "Ver Todas as Publicações",
+        "blog_title": "Blog",
+        "publication_link_text": "Link para a Publicação",
+        "all_posts_title": "Todas as Publicações",
+        "no_posts_found": "Nenhuma publicação encontrada.",
+        "nav_about": "Sobre Mim",
+        "nav_education": "Educação",
+        "nav_experience": "Experiência",
+        "nav_projects": "Projetos",
+        "nav_publications": "Publicações",
+        "nav_news": "Notícias",
+        "nav_contact": "Contato"
+    },
+    "projects": [
+        {
+            "id": "project-one",
+            "name": "Esparsificador Espectral de Grafos",
+            "description": "Durante o meu curso de mestrado, implementei diferentes esparsificadores espectrais de grafos em Python e C++. As implementações podem ser encontradas no meu GitHub."
+        },
+        {
+            "id": "project-two",
+            "name": "Seleção de Características mRMR",
+            "description": "Durante o meu ano na indústria, implementei um algoritmo de seleção de características chamado Mínima Redundância Máxima Relevância (mRMR) em PySpark para melhorar o desempenho de um modelo de predição de churn. A implementação pode ser encontrada no meu GitHub."
+        }
+    ],
+    "education": [
+        {
+            "id": "edu-bangor-msc",
+            "degree": "M.Sc. em Proteção Ambiental Marinha",
+            "institution": "Universidade de Bangor, Escola de Ciências Oceânicas",
+            "location": "País de Gales, Reino Unido",
+            "description": "O curso ofereceu uma visão abrangente do ambiente marinho, incluindo viagens de campo e estudos sobre os aspectos sociais do oceano para as pessoas e a indústria. A pesquisa da dissertação foi intitulada: \"Avaliando a vulnerabilidade da frota de pesca do Reino Unido às mudanças climáticas\". Esta pesquisa focou-se especificamente em abordar as questões críticas enfrentadas pelo setor pesqueiro e em desenvolver conhecimento especializado sobre as principais espécies de pesca comercial, os principais portos do Reino Unido e as características das embarcações de pesca."
+        },
+        {
+            "id": "edu-ufma-bsc",
+            "degree": "Bacharelado em Oceanografia",
+            "institution": "Universidade Federal do Maranhão",
+            "location": "São Luís, Maranhão, Brasil",
+            "description": "O currículo proporcionou uma base ampla e interdisciplinar. Módulos chave cobriram áreas essenciais como: Ciências Fundamentais: Oceanografia Química, Física, Biológica e Geológica. Técnicas Analíticas: Análise e Processamento de Dados, Detecção Remota e Meteorologia e Climatologia. Política Ambiental: Direito Ambiental e Poluição Marinha. A dissertação focou-se em toxicologia marinha. A pesquisa foi intitulada: \"Avaliação da toxicidade de misturas de biocidas e metais em embriões de Crassostrea rhirophorae e na bactéria Vibrio fischeri\". Este projeto desenvolveu competências em investigação laboratorial e na avaliação de impactos químicos em organismos marinhos."
+        }
+    ],
+    "experience": [
+        {
+            "id": "exp-uofg",
+            "role": "Assistente de Ensino de Pós-Graduação",
+            "description": "Sou responsável por dirigir os tutoriais de laboratório para os cursos de graduação de Fundamentos Algorítmicos e Algoritmos e Estruturas de Dados. Em Fundamentos Algorítmicos, os estudantes aprendem sobre matemática discreta, métodos de prova e teoria de grafos. Em Algoritmos e Estruturas de Dados, os estudantes aprendem sobre algoritmos de ordenação, análise de complexidade e estruturas de dados como listas ligadas e árvores."
+        },
+        {
+            "id": "exp-nucleo",
+            "role": "Analista de Mineração de Dados",
+            "description": "Fui responsável por implementar novas técnicas para realizar a seleção de características num modelo de predição de abandono. As minhas tarefas semanais consistiam em ler artigos sobre o tema e codificar as soluções propostas na nuvem do Apache Spark com PySpark. Também era encarregado de investigar abordagens inovadoras para melhorar o desempenho do modelo atual. Trabalhei principalmente com um algoritmo de vanguarda para realizar a seleção de características chamado Minimum Redundancy Maximum Relevance (mRMR). Os detalhes da implementação podem ser encontrados no meu GitHub."
+        },
+        {
+            "id": "exp-una-ta",
+            "role": "Assistente de Ensino",
+            "description": "Fui assistente de ensino no curso de algoritmos do curso de graduação de Engenharia Mecatrónica. As minhas tarefas semanais consistiam em preparar notas de aula sobre temas de graduação como algoritmos de ordenação, algoritmos de dividir e conquistar, algoritmos gulosos, programação dinâmica, programação linear, algoritmos fundamentais de grafos e os algoritmos de árvore de jogo e poda alfa-beta."
+        }
+    ],
+    "publications": [
+        {
+            "id": "pub-b-chromatic",
+            "authors": "Fabricio Mendoza Granada e David Manlove"
+        },
+        {
+            "id": "pub-distributed-spectral-sparsification",
+            "authors": "Fabricio Mendoza Granada e Marcos Villagra"
+        },
+        {
+            "id": "pub-noh-forehead-communication-complexity",
+            "authors": "Fabricio Mendoza Granada e Marcos Villagra"
+        },
+        {
+            "id": "pub-hard-easy-l-tromino-tilings",
+            "authors": "Akagi, J. T., Gaona, C. F., Mendoza, F., Saikia, M. P., e Villagra, M."
+        },
+        {
+            "id": "pub-spectral-sparsification-data-clustering",
+            "authors": "Fabricio Mendoza Granada e Marcos Villagra"
+        }
+    ]
+}

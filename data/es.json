@@ -1,11 +1,11 @@
 {
     "about": {
+        "name": "Lisandra Matos",
         "title": "Sobre Mí",
         "intro": [
-            "Soy candidato a Doctor en Ciencias de la Computación en la Universidad de Glasgow, Reino Unido. Mi investigación se centra en el diseño de algoritmos para el problema del coloreo b-cromático en diferentes clases de grafos. Este trabajo me proporciona un marco matemático riguroso para resolver problemas reales de asignación de recursos y resolución de conflictos. Poseo la habilidad de traducir modelos de grafos abstractos en algoritmos eficientes para problemas de optimización complejos, tales como la Programación Automática de Horarios (Automated Scheduling). Más allá de la investigación teórica, tengo gran interés en aplicar mi experiencia algorítmica a tecnologías emergentes en Machine Learning e Inteligencia Artificial, específicamente en la optimización de las estructuras de datos y grafos computacionales que sustentan los sistemas distribuidos a gran escala.",
-            "Tengo más de 5 años de experiencia docente en matemáticas y algoritmos a nivel de pregrado. Además, cuento con experiencia como Analista de Minería de Datos, donde implementé con éxito el algoritmo de selección de características mRMR utilizando PySpark para optimizar modelos de predicción de abandono, demostrando mi capacidad para aplicar investigación algorítmica avanzada para resolver desafíos prácticos de big data.",
-            "Fuera del mundo de las ciencias de la computación, disfruto jugar al fútbol con amigos y ver partidos de fútbol, especialmente los de mi equipo favorito, Olimpia, de Paraguay.",
-            "<b>Estoy buscando activamente posiciones post-doctorales o en la industria para incorporarme después de completar mi doctorado. ¡No dudes en contactarme si te gustaría que charlemos!</b>"
+            "Crecí en una comunidad pesquera en Maranhão, Brasil, lo que estableció mi profunda conexión con el océano y su importancia para los medios de vida. Como la primera persona de mi familia en acceder a la educación superior, me gradué con una Licenciatura en Oceanografía y completé una Maestría en Protección del Medio Ambiente Marino en el Reino Unido. Este viaje consolidó mi enfoque en soluciones basadas en la ciencia que equilibran la protección ecológica con las necesidades económicas de la transición energética global.",
+            "En mi rol como Oficial de Enlace de Pesca para Graduados en Escocia, me especialicé en mitigar los impactos del desarrollo de energía en alta mar. Lideré la mediación entre los desarrolladores de parques eólicos y organizaciones pesqueras clave del Reino Unido, como la SFF y la NFFO. Mi trabajo fue fundamental: realizar Evaluaciones de Impacto Ambiental (EIA) y asegurar que las preocupaciones socioeconómicas de las comunidades pesqueras locales se integraran en las políticas y estrategias de mitigación, promoviendo una transición responsable hacia las energías renovables.",
+            "Actualmente soy Asistente de Investigación II: Energía Renovable en el Instituto de Medio Ambiente de Estocolmo (SEI) en Bogotá, Colombia. Mi enfoque principal es la investigación aplicada y el análisis de políticas para apoyar el despliegue inclusivo y responsable de energías renovables en toda América Latina. En el SEI, mi objetivo es conectar las dimensiones técnicas, sociales y ambientales de la transición energética, proporcionando soluciones prácticas para un futuro energético sostenible en la región."
         ],
         "cv_title": "Curriculum Vitae",
         "cv_intro": [
@@ -58,7 +58,14 @@
         "blog_title": "Blog",
         "publication_link_text": "Enlace a la Publicación",
         "all_posts_title": "Todas las Publicaciones",
-        "no_posts_found": "No se encontraron publicaciones."
+        "no_posts_found": "No se encontraron publicaciones.",
+        "nav_about": "Sobre Mí",
+        "nav_education": "Educación",
+        "nav_experience": "Experiencia",
+        "nav_projects": "Proyectos",
+        "nav_publications": "Publicaciones",
+        "nav_news": "Noticias",
+        "nav_contact": "Contacto"
     },
     "projects": [
         {
@@ -91,25 +98,18 @@
     ],
     "education": [
         {
-            "id": "edu-uofg",
-            "degree": "Candidato a Doctor en Ciencias de la Computación",
-            "institution": "Universidad de Glasgow",
-            "location": "Glasgow, Reino Unido",
-            "description": "Actualmente soy candidato a Doctorado con un enfoque en la complejidad del problema de coloreo b-cromático de grafos y problemas relacionados. Dado que el problema de coloreo b-cromático de grafos es NP-difícil en general, mi trabajo consiste en buscar soluciones de tiempo polinomial en clases de grafos restringidas, como grafos con grado máximo 3 y grafos con subgrafos inducidos prohibidos. También trabajo en otras variantes del problema de coloreo b-cromático, como el problema de coloreo fall y el problema de coloreo b-cromático total."
+            "id": "edu-bangor-msc",
+            "degree": "M.Sc. en Protección del Medio Ambiente Marino",
+            "institution": "Universidad de Bangor, Escuela de Ciencias Oceánicas",
+            "location": "Gales, Reino Unido",
+            "description": "El curso ofreció una visión integral del medio ambiente marino, incluyendo salidas de campo y estudios sobre los aspectos sociales del océano para las personas y la industria. La investigación de la disertación se tituló: \"Evaluación de la vulnerabilidad de la flota pesquera del Reino Unido al cambio climático\". Esta investigación se centró específicamente en abordar los problemas críticos que enfrenta el sector pesquero y en desarrollar conocimientos especializados sobre las principales especies pesqueras comerciales, los principales puertos del Reino Unido y las características de los buques pesqueros."
         },
         {
-            "id": "edu-una-msc",
-            "degree": "Maestría en Ciencias de la Computación",
-            "institution": "Universidad Nacional de Asunción, Nucleo de Investigación y Desarrollo Tecnológico de la Facultad Politecnica",
-            "location": "San Lorenzo, Paraguay",
-            "description": "Curso enfocado en aspectos generales de las ciencias de la computación y la investigación. Mi tesis de máster se centró en el aprendizaje automático no supervisado, la teoría espectral de grafos y la complejidad de la comunicación."
-        },
-        {
-            "id": "edu-una-bsc",
-            "degree": "Licenciatura en Ciencias de la Computación",
-            "institution": "Universidad Nacional de Asunción",
-            "location": "San Lorenzo, Paraguay",
-            "description": "Curso enfocado en los fundamentos de la informática, las matemáticas y la programación. Me gradué con una sólida base en ingeniería de software."
+            "id": "edu-ufma-bsc",
+            "degree": "Licenciatura en Oceanografía",
+            "institution": "Universidad Federal de Maranhão",
+            "location": "São Luís, Maranhão, Brasil",
+            "description": "El plan de estudios proporcionó una base amplia e interdisciplinaria. Los módulos clave cubrieron áreas esenciales como: Ciencias Fundamentales: Oceanografía Química, Física, Biológica y Geológica. Técnicas Analíticas: Análisis y Procesamiento de Datos, Detección Remota y Meteorología y Climatología. Política Ambiental: Derecho Ambiental y Contaminación Marina. La disertación se centró en la toxicología marina. La investigación se tituló: \"Evaluación de la toxicidad de mezclas de biocidas y metales en embriones de Crassostrea rhirophorae y la bacteria Vibrio fischeri\". Este proyecto desarrolló habilidades en investigación de laboratorio y en la evaluación de los impactos químicos en organismos marinos."
         }
     ],
     "experience": [
