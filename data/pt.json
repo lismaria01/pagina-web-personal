@@ -43,7 +43,7 @@
     "projects": [
         {
             "id": "project-one",
-            "name": "Esparsificador Espectral de Grafos",
+            "name": "Viva Mar",
             "description": "Durante o meu curso de mestrado, implementei diferentes esparsificadores espectrais de grafos em Python e C++. As implementações podem ser encontradas no meu GitHub."
         },
         {

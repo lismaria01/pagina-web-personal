@@ -13,7 +13,7 @@ from helper import _parse_date_flexible, _set_locale, load_site_data
 load_dotenv(override=True)  # Force loading from .env, overriding existing env vars.
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY')
+app.secret_key = os.environ.get('SECRET_KEY', os.urandom(24))
 
 # Configuration for Flask-FlatPages
 app.config['FLATPAGES_EXTENSION'] = '.md'

@@ -8,7 +8,7 @@ __pycache__/
 
 # --- Virtual Environment ---
 # This can be recreated from requirements.txt
-webpage/
+.venv/
 
 # --- Temporary Test Files ---
 # As requested, ignore the connection test script

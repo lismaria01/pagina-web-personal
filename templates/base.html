@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {# The title block can be overridden by child templates #}
-    <title>{% block title %}{{ about.name }}{% endblock %}</title>
+    <title>{% block title %}Lisandra Matos{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="stylesheet" href="{{ url_for('pygments_css') }}">
 
@@ -22,7 +22,7 @@
 <body>
 
     <header class="primary-header">
-        <a href="{{ url_for('index', lang=lang) }}" class="nav-logo">{{ about.name }}</a>
+        <a href="{{ url_for('index', lang=lang) }}" class="nav-logo">Lisandra Matos</a>
 
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
             <span class="sr-only">Menu</span>
@@ -67,7 +67,7 @@
 
 
     <footer>
-        <p>&copy; {{ now.year }} {{ about.name }}. All rights reserved.</p>
+        <p>&copy; {{ now.year }} Fabricio Mendoza. All rights reserved.</p>
     </footer>
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
